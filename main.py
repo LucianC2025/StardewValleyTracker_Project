@@ -3,14 +3,31 @@ import pandas as pd
 
 # DATA!!
 
-# Characters
+# ***************** CHARACTERS!! ***************** 
+npc_df = pd.read_csv('characters.csv')
+npc_ver2_df = pd.read_csv('villagers.csv')
 
-# Giftable Characters
+# Add the 'Giftable' column from npc_ver2_df to npc_df, based on the Name of each npc
+npc_df = npc_df.merge(npc_ver2_df[['Name', 'Giftable']], on='Name', how='left')
+print(npc_df.info())
+
+giftable_npcs = npc_df['Giftable'] = True; 
+non_giftable_npcs = npc_df['Giftable'] = False; 
 
 
-# abandoned House 
-#abandoned_house_hats = 
+# ***************** ABANDONED HOUSE!! ***************** 
+abandoned_house_hats_df = pd.read_csv('abandonedhousehats - Sheet1.csv')
+print(abandoned_house_hats_df.info())
 
+
+
+# ***************** ACHIEVEMENTS!!  ***************** 
+achievements_df = pd.read_csv('Achievements - Sheet1.csv')
+print(achievements_df.head())
+ 
+
+# ***************** CROPS!! ***************** 
+crops_df = pd.read_csv('crops.csv')
 
 
 app = Flask(__name__)
