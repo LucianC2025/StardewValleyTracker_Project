@@ -4,6 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <title>Stardew Valley Tracker</title>
     </head>
@@ -11,16 +12,14 @@
     <body>
 
         <div class="container text-center"> 
-            <h2> All NPCs! </h2>
+            <h2> NPCs</h2>
             <div class="carousel-wrapper">
-
                 <button class="carousel-button left" onclick="scrollNPCs(-1)"><</button>
-
                 <div id="npc-carousel-track" class="npc-carousel-track px-2"> 
                     <!-- NPC CARDS -->
                     <!-- LISTED IN ALPHABETICAL ORDER-->
                     <div class="npc-card card">
-                        <img src="/images/npcs_gift/Bachelorettes/Abigail.webp/" class="card-img-top">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/8/88/Abigail.png" class="card-img-top">
                         <div id="npc-card-body" class="card-body">
                             <h5> Abigail</h5>
                             <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
@@ -28,7 +27,7 @@
                         </div>   
                     </div>  
                      <div class="npc-card card">
-                        <img src="/images/npcs_gift/Bachelors/Alex.png" class="card-img-top">
+                        <img src="/static/images/npcs_gift/Bachelors/Alex.png" class="card-img-top">
                          <div id="npc-card-body" class="card-body">
                             <h5> Alex </h5>
                             <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
@@ -36,7 +35,7 @@
                         </div>     
                     </div>  
                     <div class="npc-card card">
-                        <img src="/images/npcs_nogift/Birdie.png" class="card-img-top">
+                        <img src="/static/images/npcs_nogift/Birdie.png" class="card-img-top">
                         <div id="npc-card-body" class="card-body">
                             <h5> Birdie</h5>
                             <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
@@ -44,7 +43,7 @@
                         </div>     
                     </div>  
                     <div class="npc-card card">
-                        <img src="/images/npcs_nogift/Bouncer.png" class="card-img-top">
+                        <img src="/static/images/npcs_nogift/Bouncer.png" class="card-img-top">
                         <div id="npc-card-body" class="card-body">
                             <h5> Bouncer</h5>
                             <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
@@ -52,7 +51,7 @@
                         </div>     
                     </div> 
                     <div class="npc-card card">
-                        <img src="/images/npcs_gift/Caroline.png" card-img-top">
+                        <img src="/static/images/npcs_gift/Caroline.png" card-img-top">
                         <div id="npc-card-body" class="card-body">
                             <h5> Caroline </h5>
                             <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
@@ -60,376 +59,336 @@
                         </div>     
                     </div> 
                     <div class="npc-card card">
-                         <img src="/images/npcs_gift/Clint.png" card-img-top">
+                         <img src="/static/images/npcs_gift/Clint.png" card-img-top">
                         <div id="npc-card-body" class="card-body">
                             <h5> Clint</h5>
                             <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
                             <a href ="...."> NPC informatiom</a>
                         </div>     
                     </div> 
-                    
                     <div class="npc-card card">
-                        <img src="/images/npcs_gift/Demetrius.png" card-img-top">
+                        <img src="/static/images/npcs_gift/Demetrius.png" card-img-top">
                          <div id="npc-card-body" class="card-body">
                             <h5> Demetrius </h5>
                             <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
                             <a href ="...."> NPC informatiom</a>
                         </div>     
                     </div>  
-                    
                     <div class="npc-card card">
-                        <img src="/images/npcs_gift/Dwarf.png" card-img-top">
+                        <img src="/static/images/npcs_gift/Dwarf.png" card-img-top">
                         <div id="npc-card-body" class="card-body">
                             <h5> Dwarf </h5>
                             <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
                             <a href ="...."> NPC informatiom</a>
                         </div>     
                     </div> 
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Bachelors/Elliott.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Elliot </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>   
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Bachelorettes/Emily.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Emily </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>  
-                     
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Evelyn.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Evelyn </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>  
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_nogift/fizz.webp" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Fizz</h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>   
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/George.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> George </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_nogift/Gil.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Gil </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>   
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_nogift/Governor.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Governor </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_nogift/Grandpa.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Grandpa </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>  
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_nogift/Gunther.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Gunther</h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>  
-                       
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Gus.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Gus </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>   
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Bachelorettes/Haley.webp" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Haley </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>  
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Bachelors/Harvey.webp" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Harvey </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_nogift/Henchman.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Henchman </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>    
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Jas.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Jas </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>  
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Jodi.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Jodi</h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>  
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Kent.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Kent </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>  
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Krobus.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Krobus</h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>  
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Bachelorettes/Leah.webp" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Leah </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div> 
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Leo.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Leo</h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>   
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Lewis.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Lewis </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Linus.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Linus </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_nogift/Marlon.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Marlon</h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div> 
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Marnie.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Marnie </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>  
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Bachelorettes/Maru.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Maru </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>   
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_nogift/Morris.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Morris </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>  
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_nogift/Mr._Qi.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Mr. Qi </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>  
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Pam.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Pam </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>   
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Bachelorettes/Penny.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Penny </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>  
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Pierre.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Pierre </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>  
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_nogift/Professor_Snail.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Professor Snail </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>  
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Robin.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5>Robin</h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>  
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Bachelors/Sam.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Sam </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Sandy.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Sandy </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>  
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Bachelors/Sebastian.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Sebastian </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>  
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Bachelors/Shane.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Shane </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>  
-                     
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Vincent.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Vincent </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div> 
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Willy.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Willy </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div>  
-                    
-                        <div class="npc-card card">
-                            <img src="/images/npcs_gift/Wizard.png" class="card-img-top">
-                            <div id="npc-card-body" class="card-body">
-                                <h5> Wizard </h5>
-                                <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
-                                <a href ="...."> NPC informatiom</a>
-                            </div>     
-                        </div> 
-                        <button class="carousel-button right" onclick="scrollNPCs(1)">></button>
+                     <div class="npc-card card">
+                        <img src="/static/images/npcs_gift/Bachelors/Elliott.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Elliot </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
                     </div>  
-                </div>
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_gift/Bachelorettes/Emily.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Emily </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>  
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_gift/Evelyn.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Evelyn </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>  
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_nogift/fizz.webp" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Fizz</h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>   
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_gift/George.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> George </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_nogift/Gil.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Gil </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>   
+                     <div class="npc-card card">
+                        <img src="/static/images/npcs_nogift/Governor.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Governor </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_nogift/Grandpa.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Grandpa </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>  
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_nogift/Gunther.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                             <h5> Gunther</h5>
+                             <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                             <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>  
+                     <div class="npc-card card">
+                        <img src="/static/images/npcs_gift/Gus.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Gus </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>   
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_gift/Bachelorettes/Haley.webp" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Haley </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>  
+                    <div class="npc-card card">
+                         <img src="/static/images/npcs_gift/Bachelors/Harvey.webp" class="card-img-top">
+                         <div id="npc-card-body" class="card-body">
+                            <h5> Harvey </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_nogift/Henchman.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Henchman </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>    
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_gift/Jas.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Jas </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>  
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_gift/Jodi.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Jodi</h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>  
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_gift/Kent.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Kent </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>  
+                     <div class="npc-card card">
+                        <img src="/static/images/npcs_gift/Krobus.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Krobus</h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>  
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_gift/Bachelorettes/Leah.webp" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Leah </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div> 
+                    <div class="npc-card card">
+                         <img src="/static/images/npcs_gift/Leo.png" class="card-img-top">
+                         <div id="npc-card-body" class="card-body">
+                            <h5> Leo</h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>   
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_gift/Lewis.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Lewis </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>
+                    <div class="npc-card card">
+                         <img src="/static/images/npcs_gift/Linus.png" class="card-img-top">
+                         <div id="npc-card-body" class="card-body">
+                            <h5> Linus </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <aside href ="...."> NPC informatiom</a>
+                         </div>     
+                    </div>
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_nogift/Marlon.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Marlon</h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div> 
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_gift/Marnie.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Marnie </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>  
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_gift/Bachelorettes/Maru.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Maru </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>   
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_nogift/Morris.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Morris </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>  
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_nogift/Mr._Qi.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Mr. Qi </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>  
+                    <div class="npc-card card">
+                         <img src="/static/images/npcs_gift/Pam.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Pam </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>   
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_gift/Bachelorettes/Penny.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Penny </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                         </div>     
+                    </div>  
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_gift/Pierre.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Pierre </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>  
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_nogift/Professor_Snail.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Professor Snail </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>  
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_gift/Robin.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5>Robin</h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>  
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_gift/Bachelors/Sam.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Sam </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_gift/Sandy.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Sandy </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                     </div>  
+                     <div class="npc-card card">
+                         <img src="/static/images/npcs_gift/Bachelors/Sebastian.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Sebastian </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                         </div>     
+                    </div>  
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_gift/Bachelors/Shane.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Shane </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>  
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_gift/Vincent.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                             <h5> Vincent </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div> 
+                    <div class="npc-card card">
+                         <img src="/static/images/npcs_gift/Willy.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Willy </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div>  
+                    <div class="npc-card card">
+                        <img src="/static/images/npcs_gift/Wizard.png" class="card-img-top">
+                        <div id="npc-card-body" class="card-body">
+                            <h5> Wizard </h5>
+                            <p class="npc-card-text"> kafsldkasdklbjasdlf </p>
+                            <a href ="...."> NPC informatiom</a>
+                        </div>     
+                    </div> 
+                    <button class="carousel-button right" onclick="scrollNPCs(1)">></button>
+                </div>  
+            </div>
     
     </body>
 

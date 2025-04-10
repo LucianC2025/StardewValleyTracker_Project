@@ -1,0 +1,42 @@
+/* -------------------------  NPC CAROUSEL  ------------------------- */
+.carousel-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.npc-carousel-track {
+  display: flex;
+  gap: 0.3rem; /* distance between each card*/
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 1rem 0;
+}
+.npc-carousel-track::-webkit-scrollbar-track {
+  background: #b1ffad; /* track color */
+  border-radius: 10px;
+}
+
+
+.npc-card {
+  flex: 0 0 150px;
+  max-width: 150px;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(156, 55, 228, 0.5);
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  z-index: 1; /* puts the button infront of the cards*/
+}
+.carousel-button.left {
+  left: 0;
+}
+.carousel-button.right {
+  right: 0;
+}
