@@ -1,7 +1,20 @@
+html, body {
+  background-image: url("/static/wallpapersden.com_stardew-valley_1920x1080.jpg");
+  background-color: #1685df;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
 /* -------------------------  NPC CAROUSEL  ------------------------- */
 .carousel-wrapper {
   position: relative;
   overflow: hidden;
+  background:  none;
 }
 
 .npc-carousel-track {
@@ -11,18 +24,19 @@
   scroll-behavior: smooth;
   padding: 1rem 0;
 }
-.npc-carousel-track::-webkit-scrollbar-track {
-  background: #b1ffad; /* track color */
-  border-radius: 10px;
+
+.npc-carousel-track::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
 }
 
 
 .npc-card {
   flex: 0 0 150px;
   max-width: 150px;
+  max-height: 250px;
 }
 
-.carousel-button {
+.carousel-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -34,9 +48,13 @@
   cursor: pointer;
   z-index: 1; /* puts the button infront of the cards*/
 }
-.carousel-button.left {
+.carousel-btn.left {
   left: 0;
 }
-.carousel-button.right {
+.carousel-btn.right {
   right: 0;
+}
+
+h5 {
+  font-size: 5px;
 }
