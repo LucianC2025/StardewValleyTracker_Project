@@ -10,7 +10,26 @@
     </head>
 
     <body>
+        <!--*********** HEADER ***********-->
+        <!-- have stardews logo & a search bar side by side, the image has to be smaller to fit, make it like 45% image 55% search bar-->
+        <header class="container border-bottom">
+           <div class="container-fluid">
+                <div class="">
+                    <img src="/static/images/title.webp">
+                </div>
+                <div class="d-flex align-items-center">
+                    <form class="">
+                        <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                    </form>
+                </div>
+           </div>
+        </header>
+        
 
+        <!--*********** MAIN ***********-->
+        <main class ="container">
+
+        <!-- NPC CAROUSEL -->
         <div class="container text-center"> 
             <div class="carousel-wrapper">
                 <button id="prev-btn" class="carousel-btn left"><</button>
@@ -21,7 +40,7 @@
                         <img src="https://stardewvalleywiki.com/mediawiki/images/8/88/Abigail.png" class="card-img-top">
                         <div id="npc-card-body" class="card-body">
                             <h5> Abigail</h5> 
-                            <a href ="...."> more info</a>
+                            <a href ="{{ url_for('npcroute', route_type='abigail')}}"> more info</a>
                         </div>   
                     </div>  
                      <div class="npc-card card">
@@ -343,6 +362,15 @@
                     <button id="next-btn" class="carousel-btn right" onclick="scrollNPCs(1)">></button>
                 </div>  
             </div>
+        </div>
+        
+        </main>
+
+
+         <!--*********** FOOTER***********-->
+        <footer>
+
+        </footer>
     
     </body>
 
