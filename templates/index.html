@@ -12,13 +12,15 @@
     <body>
         <!--*********** HEADER ***********-->
         <!-- have stardews logo & a search bar side by side, the image has to be smaller to fit, make it like 45% image 55% search bar-->
-        <header class="container border-bottom">
-           <div class="container-fluid">
-                <div class="">
-                    <img src="/static/images/title.webp">
+        <header class="container border-bottom py-3">
+           <div class="d-flex align-items-center justify-content-between">
+                <!-- STARDEW LOGO -->
+                <div style="flex: 0 0 30%;">
+                    <img src="/static/images/title.webp" class="img-fluid">
                 </div>
-                <div class="d-flex align-items-center">
-                    <form class="">
+                <!-- SEARCH BAR -->
+                <div style="flex: 0 0 40%;">
+                    <form>
                         <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
                     </form>
                 </div>

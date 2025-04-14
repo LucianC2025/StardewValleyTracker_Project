@@ -1,5 +1,5 @@
 html, body {
-  background-image: url("/static/wallpapersden.com_stardew-valley_1920x1080.jpg");
+  background-image: url("/static/images/wallpapersden.com_stardew-valley_1920x1080.jpg");
   background-color: #1685df;
   background-repeat: no-repeat;
   background-position: center;
@@ -8,6 +8,11 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+header {
+  background-color: rgba(255, 255, 255, 0.6); 
+}
+
 
 main {
   background-color: rgba(255, 255, 255, 0.6); 
