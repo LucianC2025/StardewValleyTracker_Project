@@ -40,10 +40,11 @@ def index():
     return render_template('index.html')
 
 # NPCS
-@app.route('/routes/npc_routes/<route_type>')
-def npcroute(route_type): 
-    return render_template(f'routes/npc_routes/{route_type}.html', route_type=route_type)
+@app.route('/npcs')
+def npc_info():
+    return render_template('npc_page.html')
+
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port = 1234, debug=True)
+    app.run(host="0.0.0.0", port = 1117, debug=True)
 
