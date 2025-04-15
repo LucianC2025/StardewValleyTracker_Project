@@ -19,7 +19,12 @@
                     <img src="/static/images/title.webp" class="img-fluid">
                 </div>
                 <!-- SEARCH BAR -->
-                <div style="flex: 0 0 40%;">
+                <div class = "d-flex align-items-center"  style="flex: 0 0 20%; width: 100%;">
+                    <span class="me-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                        </svg>
+                    </span>
                     <form>
                         <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
                     </form>
@@ -42,7 +47,7 @@
                         <img src="https://stardewvalleywiki.com/mediawiki/images/8/88/Abigail.png" class="card-img-top">
                         <div id="npc-card-body" class="card-body">
                             <h5> Abigail</h5> 
-                            <a href="{{ url_for('npc_page') }}"> .... </a>
+                            <a href="{{ url_for('npc_info') }}"> .... </a>
                         </div>   
                     </div>  
                      <div class="npc-card card">
