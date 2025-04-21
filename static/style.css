@@ -3,6 +3,8 @@ html, body {
   background-color: #1685df;
   background-size: cover;
   overflow: hidden; /* prevents body scrolling*/
+  display: flex;
+  flex-direction: column;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -10,17 +12,22 @@ html, body {
 
 
 header {
+  background-image: url("https://moewalls.com/wp-content/uploads/2023/07/stardew-valley-bus-thumb-728x410.jpg");
+  background-size: contain;
+  background-color: rgba(255, 255, 255, 0.6); 
+  flex-shrink: 0;
+}
+
+.container {
+  display: flex;
+  overflow: hidden;
   background-color: rgba(255, 255, 255, 0.6); 
 }
 
-main.container {
-  overflow-y: auto; 
+main {
+  flex: 1;
+  overflow-y: auto; /*scroll up/down if needed */
   padding: 1rem;
-}
-
-
-.container {
- background-color: rgba(255, 255, 255, 0.6); 
 }
 
 
@@ -32,7 +39,7 @@ main.container {
 }
 
 .npc-carousel-track {
-  display: flex;
+  display: flex; /* Flexbox*/
   gap: 0.3rem; /* distance between each card*/
   overflow-x: auto;
   scroll-behavior: smooth;

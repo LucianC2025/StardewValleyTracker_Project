@@ -32,427 +32,428 @@
            </div>
         </header>
         
-
-        <!--*********** MAIN ***********-->
-        <main class ="container">
+        <div class="container">
+            <!--*********** MAIN ***********-->
+            <main>
             <br> 
-        <!-- PERFECTION PROGRESS-->
-        <!-- Depending on the other information provided on the webstie, the pgoress bar will update itself. The page has to automatically reset itself when it changes the pgoress bar-->
-        <div class="jumbotron text-center perfection_status">
-            <h1> ✨⭐️🌟 Perfection 🌟⭐️✨</h1>
-            <label> Perfection Progress: </label>
-            <div class="progress-stacked">
-                <!-- Produce & Forage Shipped -->
-                    <!-- 15%-->
-                <div class="progress" role="progressbar" aria-label="Segment one" aria-valuenow="0" aria-valuemin="0" aria-valuemax="15" style="width:15%">
-                    <div class="progress-bar"></div>
-                </div>
-                <!-- Obelisks on Farm -->
-                    <!-- 4%-->
-                <div class="progress" role="progressbar" aria-label="Segment two" aria-valuenow="0" aria-valuemin="0" aria-valuemax="4" style="width:4%">
-                    <div class="progress-bar bg-success"></div>
-                </div>
-                <!--Golden Clock on Farm-->
-                    <!-- 10% -->
-                <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="0" aria-valuemin="0" aria-valuemax="30" style="width: 30%">
-                    <div class="progress-bar bg-warning"></div>
-                </div>
-                <!-- Monster Slayer Hero-->
-                    <!-- 10%-->
-                <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="0" aria-valuemin="0" aria-valuemax="10" style="width: 10%">
-                    <div class="progress-bar bg-warning"></div>
-                </div>    
-                <!-- Great Friends -->
-                    <!-- 11%-->
-                <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="0" aria-valuemin="0" aria-valuemax="11" style="width: 11%">
-                    <div class="progress-bar bg-warning"></div>
-                </div>
-                <!-- Farmer Level -->
-                    <!-- 5%-->
-                <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="0" aria-valuemin="0" aria-valuemax="5" style="width: 5%">
-                    <div class="progress-bar bg-warning"></div>
-                </div>
-                <!-- Found All Stardrops-->
-                    <!-- 10%-->
-                <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="0" aria-valuemin="0" aria-valuemax="10" style="width: 10%">
-                    <div class="progress-bar bg-warning"></div>
-                </div>
-                <!--Cooking Recipes Made-->
-                    <!-- 10%-->
-                <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="0" aria-valuemin="0" aria-valuemax="10" style="width: 10%">
-                    <div class="progress-bar bg-warning"></div>
-                </div>     
-                <!--Crafting Recipes Made-->
-                    <!-- 10%-->
-                <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="0" aria-valuemin="0" aria-valuemax="10" style="width: 10%">
-                    <div class="progress-bar bg-warning"></div>
-                </div>
-                <!--Fish Caught-->
-                    <!-- 10%-->
-                <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="0" aria-valuemin="0" aria-valuemax="10" style="width: 10%">
-                    <div class="progress-bar bg-warning"></div>
-                </div>
-                <!--Golden Walnuts found-->
-                    <!-- 5%-->
-                <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="0" aria-valuemin="0" aria-valuemax="5" style="width: 5%">
-                    <div class="progress-bar bg-warning"></div>
-                </div>
-            </div>
-
-            <h3> Goals: </h3>
-
-        </div>
-
-        <!-- NPC CAROUSEL -->
-        <div class="jumbotron text-center"> 
-            <h1> NPCS</h1>
-            <div class="carousel-wrapper">
-                <button id="prev-btn" class="carousel-btn left"><</button>
-                <div id="npc-carousel-track" class="npc-carousel-track px-2"> 
-                    <!-- NPC CARDS -->
-                    <!-- LISTED IN ALPHABETICAL ORDER-->
-                    <div class="npc-card card">
-                        <img src="https://stardewvalleywiki.com/mediawiki/images/8/88/Abigail.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Abigail</h5> 
-                            <a href="{{ url_for('npc_info') }}"> .... </a>
-                        </div>   
-                    </div>  
-                     <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Bachelors/Alex.png" class="card-img-top">
-                         <div id="npc-card-body" class="card-body">
-                            <h5> Alex </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>  
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_nogift/Birdie.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Birdie</h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>  
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_nogift/Bouncer.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Bouncer</h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div> 
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Caroline.png" card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Caroline </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div> 
-                    <div class="npc-card card">
-                         <img src="/static/images/npcs_gift/Clint.png" card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Clint</h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div> 
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Demetrius.png" card-img-top">
-                         <div id="npc-card-body" class="card-body">
-                            <h5> Demetrius </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>  
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Dwarf.png" card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Dwarf </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div> 
-                     <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Bachelors/Elliott.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Elliot </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>  
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Bachelorettes/Emily.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Emily </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>  
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Evelyn.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Evelyn </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>  
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_nogift/fizz.webp" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Fizz</h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>   
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/George.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> George </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
+            <!-- PERFECTION PROGRESS-->
+            <!-- Depending on the other information provided on the webstie, the pgoress bar will update itself. The page has to automatically reset itself when it changes the pgoress bar-->
+            <div class="jumbotron text-center perfection_status">
+                <h1> ✨⭐️🌟 Perfection 🌟⭐️✨</h1>
+                <label> Perfection Progress: </label>
+                <div class="progress-stacked">
+                    <!-- Produce & Forage Shipped -->
+                        <!-- 15%-->
+                    <div class="progress" role="progressbar" aria-label="Segment one" aria-valuenow="0" aria-valuemin="0" aria-valuemax="15" style="width:15%">
+                        <div class="progress-bar"></div>
                     </div>
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_nogift/Gil.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Gil </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>   
-                     <div class="npc-card card">
-                        <img src="/static/images/npcs_nogift/Governor.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Governor </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
+                    <!-- Obelisks on Farm -->
+                        <!-- 4%-->
+                    <div class="progress" role="progressbar" aria-label="Segment two" aria-valuenow="0" aria-valuemin="0" aria-valuemax="4" style="width:4%">
+                        <div class="progress-bar bg-success"></div>
                     </div>
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_nogift/Grandpa.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Grandpa </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>  
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_nogift/Gunther.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                             <h5> Gunther</h5>
-
-                             <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>  
-                     <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Gus.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Gus </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>   
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Bachelorettes/Haley.webp" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Haley </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>  
-                    <div class="npc-card card">
-                         <img src="/static/images/npcs_gift/Bachelors/Harvey.webp" class="card-img-top">
-                         <div id="npc-card-body" class="card-body">
-                            <h5> Harvey </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
+                    <!--Golden Clock on Farm-->
+                        <!-- 10% -->
+                    <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="0" aria-valuemin="0" aria-valuemax="30" style="width: 30%">
+                        <div class="progress-bar bg-warning"></div>
                     </div>
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_nogift/Henchman.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Henchman </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
+                    <!-- Monster Slayer Hero-->
+                        <!-- 10%-->
+                    <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="0" aria-valuemin="0" aria-valuemax="10" style="width: 10%">
+                        <div class="progress-bar bg-warning"></div>
                     </div>    
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Jas.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Jas </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>  
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Jodi.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Jodi</h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>  
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Kent.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Kent </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>  
-                     <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Krobus.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Krobus</h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>  
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Bachelorettes/Leah.webp" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Leah </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div> 
-                    <div class="npc-card card">
-                         <img src="/static/images/npcs_gift/Leo.png" class="card-img-top">
-                         <div id="npc-card-body" class="card-body">
-                            <h5> Leo</h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>   
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Lewis.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Lewis </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
+                    <!-- Great Friends -->
+                        <!-- 11%-->
+                    <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="0" aria-valuemin="0" aria-valuemax="11" style="width: 11%">
+                        <div class="progress-bar bg-warning"></div>
                     </div>
-                    <div class="npc-card card">
-                         <img src="/static/images/npcs_gift/Linus.png" class="card-img-top">
-                         <div id="npc-card-body" class="card-body">
-                            <h5> Linus </h5>
-                            <aside href ="...."> more info.. </a>
-                         </div>     
+                    <!-- Farmer Level -->
+                        <!-- 5%-->
+                    <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="0" aria-valuemin="0" aria-valuemax="5" style="width: 5%">
+                        <div class="progress-bar bg-warning"></div>
                     </div>
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_nogift/Marlon.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Marlon</h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div> 
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Marnie.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Marnie </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>  
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Bachelorettes/Maru.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Maru </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>   
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_nogift/Morris.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Morris </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>  
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_nogift/Mr._Qi.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Mr. Qi </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>  
-                    <div class="npc-card card">
-                         <img src="/static/images/npcs_gift/Pam.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Pam </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>   
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Bachelorettes/Penny.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Penny </h5>
-                            <a href ="...."> more info.. </a>
-                         </div>     
-                    </div>  
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Pierre.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Pierre </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>  
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_nogift/Professor_Snail.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Professor Snail </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>  
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Robin.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5>Robin</h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>  
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Bachelors/Sam.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Sam </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
+                    <!-- Found All Stardrops-->
+                        <!-- 10%-->
+                    <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="0" aria-valuemin="0" aria-valuemax="10" style="width: 10%">
+                        <div class="progress-bar bg-warning"></div>
                     </div>
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Sandy.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Sandy </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                     </div>  
-                     <div class="npc-card card">
-                         <img src="/static/images/npcs_gift/Bachelors/Sebastian.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Sebastian </h5>
-                            <a href ="...."> more info.. </a>
-                         </div>     
-                    </div>  
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Bachelors/Shane.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Shane </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>  
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Vincent.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                             <h5> Vincent </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div> 
-                    <div class="npc-card card">
-                         <img src="/static/images/npcs_gift/Willy.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Willy </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div>  
-                    <div class="npc-card card">
-                        <img src="/static/images/npcs_gift/Wizard.png" class="card-img-top">
-                        <div id="npc-card-body" class="card-body">
-                            <h5> Wizard </h5>
-                            <a href ="...."> more info.. </a>
-                        </div>     
-                    </div> 
-                    <button id="next-btn" class="carousel-btn right" onclick="scrollNPCs(1)">></button>
-                </div>  
+                    <!--Cooking Recipes Made-->
+                        <!-- 10%-->
+                    <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="0" aria-valuemin="0" aria-valuemax="10" style="width: 10%">
+                        <div class="progress-bar bg-warning"></div>
+                    </div>     
+                    <!--Crafting Recipes Made-->
+                        <!-- 10%-->
+                    <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="0" aria-valuemin="0" aria-valuemax="10" style="width: 10%">
+                        <div class="progress-bar bg-warning"></div>
+                    </div>
+                    <!--Fish Caught-->
+                        <!-- 10%-->
+                    <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="0" aria-valuemin="0" aria-valuemax="10" style="width: 10%">
+                        <div class="progress-bar bg-warning"></div>
+                    </div>
+                    <!--Golden Walnuts found-->
+                        <!-- 5%-->
+                    <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="0" aria-valuemin="0" aria-valuemax="5" style="width: 5%">
+                        <div class="progress-bar bg-warning"></div>
+                    </div>
+                </div>
+
+                <h3> Goals: </h3>
+
             </div>
-        </div>
 
-        <div class="jumbotron text-center">
-            <h1> 👫 Community Center 👫 </h1>
-        </div>
+            <!-- NPC CAROUSEL -->
+            <div class="jumbotron text-center"> 
+                <h1> NPCS</h1>
+                <div class="carousel-wrapper">
+                    <button id="prev-btn" class="carousel-btn left"><</button>
+                    <div id="npc-carousel-track" class="npc-carousel-track px-2"> 
+                        <!-- NPC CARDS -->
+                        <!-- LISTED IN ALPHABETICAL ORDER-->
+                        <div class="npc-card card">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/8/88/Abigail.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Abigail</h5> 
+                                <a href="{{ url_for('npc_info') }}"> .... </a>
+                            </div>   
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Bachelors/Alex.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Alex </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_nogift/Birdie.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Birdie</h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_nogift/Bouncer.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Bouncer</h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div> 
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Caroline.png" card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Caroline </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div> 
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Clint.png" card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Clint</h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div> 
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Demetrius.png" card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Demetrius </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Dwarf.png" card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Dwarf </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div> 
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Bachelors/Elliott.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Elliot </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Bachelorettes/Emily.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Emily </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Evelyn.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Evelyn </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_nogift/fizz.webp" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Fizz</h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>   
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/George.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> George </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_nogift/Gil.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Gil </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>   
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_nogift/Governor.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Governor </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_nogift/Grandpa.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Grandpa </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_nogift/Gunther.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Gunther</h5>
 
-        <div class="jumbotron">
-            <h1> Achievemnets</h1>
-        </div>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Gus.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Gus </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>   
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Bachelorettes/Haley.webp" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Haley </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Bachelors/Harvey.webp" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Harvey </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_nogift/Henchman.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Henchman </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>    
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Jas.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Jas </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Jodi.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Jodi</h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Kent.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Kent </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Krobus.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Krobus</h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Bachelorettes/Leah.webp" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Leah </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div> 
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Leo.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Leo</h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>   
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Lewis.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Lewis </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Linus.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Linus </h5>
+                                <aside href ="...."> more info.. </a>
+                            </div>     
+                        </div>
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_nogift/Marlon.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Marlon</h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div> 
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Marnie.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Marnie </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Bachelorettes/Maru.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Maru </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>   
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_nogift/Morris.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Morris </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_nogift/Mr._Qi.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Mr. Qi </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Pam.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Pam </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>   
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Bachelorettes/Penny.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Penny </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Pierre.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Pierre </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_nogift/Professor_Snail.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Professor Snail </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Robin.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5>Robin</h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Bachelors/Sam.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Sam </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Sandy.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Sandy </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Bachelors/Sebastian.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Sebastian </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Bachelors/Shane.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Shane </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Vincent.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Vincent </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div> 
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Willy.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Willy </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div>  
+                        <div class="npc-card card">
+                            <img src="/static/images/npcs_gift/Wizard.png" class="card-img-top">
+                            <div id="npc-card-body" class="card-body">
+                                <h5> Wizard </h5>
+                                <a href ="...."> more info.. </a>
+                            </div>     
+                        </div> 
+                        <button id="next-btn" class="carousel-btn right" onclick="scrollNPCs(1)">></button>
+                    </div>  
+                </div>
+            </div>
 
-        <div class="jumbotron">
-            <h1> Hats </h1>
+            <div class="jumbotron text-center">
+                <h1> 👫 Community Center 👫 </h1>
+            </div>
+
+            <div class="jumbotron">
+                <h1> Achievemnets</h1>
+            </div>
+
+            <div class="jumbotron">
+                <h1> Hats </h1>
+            </div>
+            
+            
+            </main>
         </div>
-        
-        
-        </main>
 
 
          <!--*********** FOOTER***********-->
