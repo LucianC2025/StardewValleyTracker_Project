@@ -12,16 +12,24 @@ html, body {
 
 
 header {
-  background-image: url("https://moewalls.com/wp-content/uploads/2023/07/stardew-valley-bus-thumb-728x410.jpg");
+  background-image: url("https://images3.alphacoders.com/126/1269904.png");
   background-size: contain;
   background-color: rgba(255, 255, 255, 0.6); 
   flex-shrink: 0;
+  border-color: rgb(6, 68, 131, 0.8);
+  border-width: 6px;
+  border-style: solid;
+  border-top: none;
 }
 
 .container {
   display: flex;
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.6); 
+  background-color:rgb(247, 209, 138, 0.5); 
+  border-color: rgba(202,110,47,0.8);
+  border-width: 6px;
+  border-style: solid;
+  border-bottom: none;
 }
 
 main {
@@ -30,6 +38,20 @@ main {
   padding: 1rem;
 }
 
+
+#jumbotron {
+  background:  rgb(146, 181, 100, 0.9);
+  border-style: solid;
+  border-color: rgba(202,110,47,0.8);
+}
+
+h1 {
+  color: rgba(202,110,47);
+}
+
+h5 {
+  font-size: 5px;
+}
 
 /* -------------------------  NPC CAROUSEL  ------------------------- */
 .carousel-wrapper {
@@ -76,9 +98,6 @@ main {
   right: 0;
 }
 
-h5 {
-  font-size: 5px;
-}
 
 /* NPC PAGE */
 .calico_dessert {
