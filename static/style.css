@@ -109,3 +109,11 @@ h5 {
 .calico_dessert {
   background-color: #FFE97F;
 }
+
+/* HATS */ 
+.row{
+  border-color: black;
+  border-style: solid;
+  border-width: 10px;
+}
+
