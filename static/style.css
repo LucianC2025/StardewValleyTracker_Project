@@ -97,23 +97,24 @@ h5 {
   cursor: pointer;
   z-index: 1; /* puts the button infront of the cards*/
 }
+
 .carousel-btn.left {
   left: 0;
 }
+
 .carousel-btn.right {
   right: 0;
 }
 
 
-/* NPC PAGE */
-.calico_dessert {
-  background-color: #FFE97F;
-}
-
-/* HATS */ 
+/* -------------------------  HATS  ------------------------- */
 .row{
   border-color: black;
   border-style: solid;
   border-width: 10px;
 }
 
+/* -------------------------  NPC PAGE  ------------------------- */
+.calico_dessert {
+  background-color: #FFE97F;
+}
