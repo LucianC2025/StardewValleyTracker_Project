@@ -109,6 +109,16 @@ h5 {
 
 /* -------------------------  HATS  ------------------------- */
 
+.card-title {
+  font-size: 15px;
+  width: 100%;
+  display: block;
+  text-align: center; /* Or center/right as needed */
+  margin: 0; /* Remove default margins */
+  padding: 0;
+}
+
+
 
 /* -------------------------  NPC PAGE  ------------------------- */
 .calico_dessert {
