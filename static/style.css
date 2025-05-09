@@ -109,6 +109,11 @@ h5 {
 
 /* -------------------------  HATS  ------------------------- */
 
+.mouse-hats {
+  width: 350px;
+  margin-right: 100%;
+}
+
 .card-title {
   font-size: 15px;
   width: 100%;
@@ -119,11 +124,10 @@ h5 {
 }
 
 .hat-btn {
-  color: 
-  #b1d0f3 !important;
-  background-color: #b26a21!important;
+  color: #dbeaf9 !important;
+  background-color: #f7b934!important;
+  border-color: #748cd4;
 }
-
 
 /* -------------------------  NPC PAGE  ------------------------- */
 .calico_dessert {
